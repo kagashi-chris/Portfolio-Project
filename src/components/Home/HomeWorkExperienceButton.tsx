@@ -1,5 +1,3 @@
-import React from "react";
-
 type Props = {
   job: string;
   setSelectedJobIdx: (job: number) => void;

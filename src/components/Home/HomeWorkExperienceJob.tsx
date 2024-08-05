@@ -1,4 +1,3 @@
-import React from "react";
 import HomeWorkExperienceSingleExperience from "./HomeWorkExperienceSingleExperience";
 
 type Props = {

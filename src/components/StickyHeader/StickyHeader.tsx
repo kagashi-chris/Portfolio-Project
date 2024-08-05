@@ -1,13 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import clogo2 from "../../assets/images/clogo2.png";
-import {
-  AiOutlineHome,
-  AiOutlineMenu,
-  AiOutlineProject,
-  AiOutlineMail,
-} from "react-icons/ai";
-import { BsPerson } from "react-icons/bs";
-import { GrProjects } from "react-icons/gr";
+import { AiOutlineMenu } from "react-icons/ai";
 
 export default function StickyHeader() {
   const [nav, setNav] = useState(false);

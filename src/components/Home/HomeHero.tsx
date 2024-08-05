@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function HomeHero() {
   return (
     <section id="hero" className="w-full h-screen bg-customBlue">

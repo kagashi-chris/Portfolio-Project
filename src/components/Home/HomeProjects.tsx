@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import useInView from "../Observer/useInView";
 import HomeProjectsSingleProject from "../../components/Home/HomeProjectsSingleProject";
 import coreedu from "../../assets/images/coreedu.png";

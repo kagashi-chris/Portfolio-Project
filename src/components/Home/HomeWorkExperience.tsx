@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import useInView from "../Observer/useInView";
 import HomeWorkExperienceJob from "./HomeWorkExperienceJob";
 import HomeWorkExperienceButton from "./HomeWorkExperienceButton";
