@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.heading-1 {
+  font-size: clamp(40px, 8vw, 74px);
+  line-height: 1.1;
+}
+
+.heading-2 {
+  font-size: clamp(20px, 4vw, 32px);
+  line-height: 1.1;
+}
+
+.work-highlight {
+  transition: top 0.15s linear;
+}
+
+.single-experience::before,
+.recent-tech::before {
+  content: "▹";
+  position: absolute;
+  left: 0px;
+  color: red;
+}
+
+.translate-on-hover:hover {
+  transition: transform 300ms linear;
+  transform: translateY(-10px);
+}
+
+.verticle-text {
+  writing-mode: vertical-rl;
+}
+
+.logo-part {
+  transition:
+    visibility 0.5s,
+    opacity 0.5s linear;
+}
+
+.invisible {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.fade-down-enter {
+  opacity: 0;
+  transform: translateY(-30px);
+  transition:
+    opacity 1s,
+    transform 1s;
+}
+
+.fade-up-enter {
+  opacity: 0;
+  transform: translateY(30px);
+  transition:
+    opacity 1s,
+    transform 1s;
+}
+
+.fade-enter,
+.fade-project-enter {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.fade-section {
+  opacity: 0;
+  transition: opacity 2s;
+}
