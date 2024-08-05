@@ -1,6 +1,3 @@
-import { AiOutlineLinkedin } from "react-icons/ai";
-import { AiOutlineMail } from "react-icons/ai";
-import { AiOutlinePhone } from "react-icons/ai";
 type Props = {};
 
 export default function RightSideNav({}: Props) {
