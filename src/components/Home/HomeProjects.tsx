@@ -96,14 +96,24 @@ export default function HomeProjects() {
       className="bg-customBlue py-[100px] fade-section"
     >
       <div className="max-w-[1200px] m-auto flex flex-col justify-center px-[20px] md:px-[50px] lg:px-[100px] text-white">
-        <div className="flex flex-row mb-[60px] items-center">
+        <div className="flex flex-row mb-[20px] items-center">
           <div className="lg:hidden w-[300px] h-[2px] bg-darkerWhite mr-[20px]"></div>
           <h2 className="whitespace-nowrap heading-2 font-bold text-center lg:text-left text-fontWhite mr-[20px]">
             <span className="text-red-500">02. </span>
-            Projects I Worked On
+            Projects
           </h2>
           <div className="w-[300px] h-[2px] bg-darkerWhite"></div>
         </div>
+        <p className="text-fontDarkerWhite mb-[40px]">
+          Below are some of the projects I worked on. These were all designed in
+          Figma by a designer and built by me using various programs depending
+          on what the client uses. Some of these programs include{" "}
+          <span className="text-secondaryColor">React</span>,{" "}
+          <span className="text-secondaryColor">Django</span>,{" "}
+          <span className="text-secondaryColor">WordPress</span>,{" "}
+          <span className="text-secondaryColor">Cascade</span>, and{" "}
+          <span className="text-secondaryColor">Terminal Four</span>.
+        </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-[40px]">
           {listOfProjects.map((item, index) => {
             if (showMore === true || index <= numberOfInitalDisplay - 1) {

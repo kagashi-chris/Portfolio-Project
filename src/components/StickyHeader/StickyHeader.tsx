@@ -56,7 +56,7 @@ export default function StickyHeader() {
         <nav className="lg:hidden relative">
           <AiOutlineMenu
             onClick={handleNav}
-            className="w-[30px] h-[30px] z-[100] text-secondaryColor fixed top-6 right-8"
+            className="w-[30px] h-[30px] z-[100] text-secondaryColor fixed top-6 right-8 cursor-pointer"
           />
           <div
             className={`fixed top-0 right-0 w-[200px] h-screen bg-customLightBlue flex flex-col justify-center items-center z-20 transform ${

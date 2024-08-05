@@ -25,7 +25,7 @@ export default function ({}: Props) {
         <h2 className="text-secondaryColor text-center mb-[20px] font-bold">
           04. what's next?
         </h2>
-        <h3 className="text-center text-[50px] font-bold mb-[40px] text-fontWhite">
+        <h3 className="text-center heading-2 font-bold mb-[40px] text-fontWhite">
           Get In Touch
         </h3>
         <p className="text-center max-w-[600px] mb-[60px] text-darkWhite">
