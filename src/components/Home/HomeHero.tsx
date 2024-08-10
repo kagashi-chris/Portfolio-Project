@@ -17,9 +17,15 @@ export default function HomeHero() {
           websites.
         </p>
         <div className="fade-up-enter">
-          <button className="font-bold px-[20px] py-[10px] border-2 border-secondaryColor text-secondaryColor rounded-md hover:bg-secondaryColor hover:text-black">
-            Reach out for a chat!
-          </button>
+          <a
+            href="mailto:chris.zhendev@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="font-bold px-[20px] py-[10px] border-2 border-secondaryColor text-secondaryColor rounded-md hover:bg-secondaryColor hover:text-black">
+              Reach out for a chat!
+            </button>
+          </a>
         </div>
       </div>
     </section>

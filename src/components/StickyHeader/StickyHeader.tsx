@@ -48,9 +48,15 @@ export default function StickyHeader() {
             </a>
           </div>
           <div className="fade-down-enter">
-            <button className="font-bold px-[20px] py-[10px] border-2 border-secondaryColor text-secondaryColor rounded-md hover:bg-secondaryColor hover:text-black">
-              Resume
-            </button>
+            <a
+              href="/ChrisZhenResume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="font-bold px-[20px] py-[10px] border-2 border-secondaryColor text-secondaryColor rounded-md hover:bg-secondaryColor hover:text-black">
+                Resume
+              </button>
+            </a>
           </div>
         </nav>
         <nav className="lg:hidden relative">
